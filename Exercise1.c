@@ -6,12 +6,12 @@
 int main( )
 {
     /*
-    // Exercise 1
+    // Assignment 1
     int amount;
     double price, totalPrice;
     double vat, vatAmount, finalPrice;
 
-    printf("------------Exercise 1------------\n");
+    printf("------------Assignment 1------------\n");
 
     amount = 41112;
     printf("amount %i stk\n", amount);
@@ -36,9 +36,9 @@ int main( )
     */
 
     /*
-    // Exercise 2
+    // Assignment 2
     printf("\n");
-    printf("------------Exercise 2------------\n");
+    printf("------------Assignment 2------------\n");
     int number;
     char character;
     char string[20];
@@ -47,9 +47,9 @@ int main( )
     printf("==================================\n");
     */
 
-    // Exercise 3
+    // Assignment 3
     printf("\n");
-    printf("------------Exercise 3------------\n");
+    printf("------------Assignment 3------------\n");
     char character;
     char name[20];
     gets(name);
@@ -57,9 +57,9 @@ int main( )
 
     printf("==================================\n");
 
-    // Exercise 4
+    // Assignment 4
     printf("\n");
-    printf("------------Exercise 4------------\n");
+    printf("------------Assignment 4------------\n");
 
 
     return 0;
