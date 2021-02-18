@@ -1,11 +1,7 @@
-//
-// Created by Nikolaj on 18/02/2021.
-//
 #include <stdio.h>
 
 int main( )
 {
-    /*
     // Assignment 1
     int amount;
     double price, totalPrice;
@@ -33,9 +29,8 @@ int main( )
     finalPrice = totalPrice * 1.25;
     printf("final price with tax %.2lf kr\n", finalPrice);
     printf("==================================\n");
-    */
 
-    /*
+
     // Assignment 2
     printf("\n");
     printf("------------Assignment 2------------\n");
@@ -45,7 +40,7 @@ int main( )
     scanf("%s %c %d", &string, &character, &number);
     printf("%s %c %d", string, character, number);
     printf("==================================\n");
-    */
+
 
     // Assignment 3
     printf("\n");
@@ -56,6 +51,7 @@ int main( )
     character = getchar();
 
     printf("==================================\n");
+
 
     // Assignment 4
     printf("\n");
