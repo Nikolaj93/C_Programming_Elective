@@ -2,13 +2,13 @@
 
 int main( )
 {
+    /*
     // Assignment 1
     int amount;
     double price, totalPrice;
     double vat, vatAmount, finalPrice;
 
     printf("------------Assignment 1------------\n");
-
     amount = 41112;
     printf("amount %i stk\n", amount);
 
@@ -40,16 +40,24 @@ int main( )
     scanf("%s %c %d", &string, &character, &number);
     printf("%s %c %d", string, character, number);
     printf("==================================\n");
+    */
 
 
     // Assignment 3
+    // There are other input methods, try them.
+    // gets()
+    // getchar()
+    // char character;
+    // char name[20];
+    // gets(name);
+    // character = getchar();
     printf("\n");
     printf("------------Assignment 3------------\n");
     char character;
     char name[20];
     gets(name);
     character = getchar();
-
+    putchar(character);
     printf("==================================\n");
 
 
