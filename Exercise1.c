@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main( )
+int main()
 {
     /*
     // Assignment 1
@@ -42,7 +42,7 @@ int main( )
     printf("==================================\n");
     */
 
-
+    /*
     // Assignment 3
     // There are other input methods, try them.
     // gets()
@@ -57,14 +57,113 @@ int main( )
     char name[20];
     gets(name);
     character = getchar();
-    putchar(character);
-    printf("==================================\n");
+    printf("%s %c", name, character);
+    getchar();
+     */
 
-
+    /*
     // Assignment 4
     printf("\n");
     printf("------------Assignment 4------------\n");
+    int days[] ={31,28,31,30,31,30,31,31,30,31,30,31};
+    for (int i = 0; i < 12; ++i)
+    {
+        printf("Month no. %d contains %d days.. ", i+1, days[i]);
+    }*/
 
+    /*
+    // Assignment 4a
+    printf("\n");
+    printf("------------Assignment 4a------------\n");
+    int days[] ={31,28,31,30,31,30,31,31,30,31,30,31};
+    int i = 0;
+    while (i < 12)
+    {
+        printf("Month no. %d contains %d days.. ", i+1, days[i]);
+        i++;
+    }*/
+
+    /*
+    // Assignment 4b
+    printf("\n");
+    printf("------------Assignment 4b------------\n");
+    int days[] ={31,28,31,30,31,30,31,31,30,31,30,31};
+    int i = 0;
+    do {
+        printf("Month no. %d contains %d days.. ", i+1, days[i]);
+        i++;
+    } while (i < 12);*/
+
+    /*// Assignment 5
+    printf("\n");
+    printf("------------Assignment 5------------\n");
+    char Apple;
+    char Banana;
+    char Cherry;
+    char Date;
+    char Elderberry;
+
+    if ()
+    {
+
+    } else
+        */
+
+    /*
+    // Assignment 7
+    printf("\n");
+    printf("------------Assignment 7------------\n");
+
+    #define MAXMSG 2
+    struct Message // buffer for command
+    {
+        unsigned char data[7]; // number of possible
+        unsigned char len; // number of positions in use
+    };
+    struct Message msg[MAXMSG]=
+            {
+                    { { 0xFF, 0,0xFF, 0, 0, 0, 0}, 3}, // idle msg
+                    { { 0, 0, 0, 0, 0, 0, 0}, 3}, // loco Msg
+            };
+            */
+    /*
+    msg[1].data[0] = 1;
+    msg[1].data[1] = 2;
+    msg[1].data[2] = 3;
+
+    int locoAddr1 = msg[1].data[0];
+    int data1 = msg[1].data[1];
+    int xdata1 = msg[1].data[2];
+    */
+    /*
+    int locoAddr1 = 0;
+    int data1 = 1;
+    int xdata1 = 2;
+
+    msg[1].data[0] = locoAddr1;
+    msg[1].data[1] = data1;
+    msg[1].data[2] = xdata1;
+    */
+    /*
+    printf("locoAddr 1 is: %d, data1 is: %d, xdata1 is: %d\n", locoAddr1, data1, xdata1);
+    */
+
+    /*
+    // Assignment 8
+    printf("\n");
+    printf("------------Assignment 8------------\n");
+    */
+
+    // Assignment 9
+    printf("\n");
+    printf("------------Assignment 9------------\n");
+    struct information {
+        int id;
+        char name;
+        int speed;
+        char direction;
+        int light;
+    };
 
     return 0;
 }
