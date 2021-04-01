@@ -109,7 +109,7 @@ int main()
     } else
         */
 
-    /*
+
     // Assignment 7
     printf("\n");
     printf("------------Assignment 7------------\n");
@@ -125,7 +125,7 @@ int main()
                     { { 0xFF, 0,0xFF, 0, 0, 0, 0}, 3}, // idle msg
                     { { 0, 0, 0, 0, 0, 0, 0}, 3}, // loco Msg
             };
-            */
+
     /*
     msg[1].data[0] = 1;
     msg[1].data[1] = 2;
@@ -157,13 +157,25 @@ int main()
     // Assignment 9
     printf("\n");
     printf("------------Assignment 9------------\n");
-    struct information {
+    struct Locomotive {
         int id;
-        char name;
+        char name[20];
         int speed;
-        char direction;
+        char direction[2];
         int light;
     };
+    struct Locomotive trainOne ={1, "IC308", 100, "N", 0};
+    struct Locomotive trainTwo ={2, "IC309", -100, "S", 1};
+
+    void exercise9(struct Message message[MAXMSG]);
+
+
+/*
+    // Assignment 10
+    printf("\n");
+    printf("------------Assignment 10------------\n");
+    struct Locomotive train1,train2,train3;
+    */
 
     return 0;
 }
