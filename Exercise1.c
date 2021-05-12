@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+/*
 int main()
-{
+{*/
     /*
     // Assignment 1
     int amount;
@@ -65,7 +65,7 @@ int main()
     // Assignment 4
     printf("\n");
     printf("------------Assignment 4------------\n");
-    int days[] ={31,28,31,30,31,30,31,31,30,31,30,31};
+    int days[] = {31,28,31,30,31,30,31,31,30,31,30,31};
     for (int i = 0; i < 12; ++i)
     {
         printf("Month no. %d contains %d days.. ", i+1, days[i]);
@@ -75,7 +75,7 @@ int main()
     // Assignment 4a
     printf("\n");
     printf("------------Assignment 4a------------\n");
-    int days[] ={31,28,31,30,31,30,31,31,30,31,30,31};
+    int days[] = {31,28,31,30,31,30,31,31,30,31,30,31};
     int i = 0;
     while (i < 12)
     {
@@ -109,51 +109,18 @@ int main()
     } else
         */
 
-
-    // Assignment 7
-    printf("\n");
-    printf("------------Assignment 7------------\n");
-
-    #define MAXMSG 2
-    struct Message // buffer for command
-    {
-        unsigned char data[7]; // number of possible
-        unsigned char len; // number of positions in use
-    };
-    struct Message msg[MAXMSG]=
-            {
-                    { { 0xFF, 0,0xFF, 0, 0, 0, 0}, 3}, // idle msg
-                    { { 0, 0, 0, 0, 0, 0, 0}, 3}, // loco Msg
-            };
-
-    /*
-    msg[1].data[0] = 1;
-    msg[1].data[1] = 2;
-    msg[1].data[2] = 3;
-
-    int locoAddr1 = msg[1].data[0];
-    int data1 = msg[1].data[1];
-    int xdata1 = msg[1].data[2];
-    */
-    /*
-    int locoAddr1 = 0;
-    int data1 = 1;
-    int xdata1 = 2;
-
-    msg[1].data[0] = locoAddr1;
-    msg[1].data[1] = data1;
-    msg[1].data[2] = xdata1;
-    */
-    /*
-    printf("locoAddr 1 is: %d, data1 is: %d, xdata1 is: %d\n", locoAddr1, data1, xdata1);
-    */
-
     /*
     // Assignment 8
     printf("\n");
     printf("------------Assignment 8------------\n");
-    */
 
+
+    // Exercise 8c
+    // Man skal sende en byte og ikke int
+    // 1 Char er det samme som 1 byte
+
+    */
+/*
     // Assignment 9
     printf("\n");
     printf("------------Assignment 9------------\n");
@@ -164,11 +131,15 @@ int main()
         char direction[2];
         int light;
     };
-    struct Locomotive trainOne ={1, "IC308", 100, "N", 0};
-    struct Locomotive trainTwo ={2, "IC309", -100, "S", 1};
+    struct Locomotive trainOne = {1, "IC308", 100, "N", 0};
+    struct Locomotive trainTwo = {2, "IC309", -100, "S", 1 };
 
-    void exercise9(struct Message message[MAXMSG]);
+    void exercise9(struct Locomotive *train, char newDirection[2]);
+       // printf("Direction before the change: \"%s\"\n", train->direction);
 
+        //struct Locomotive trainClone = *train;
+*/
+        //*train = trainClone;
 
 /*
     // Assignment 10
@@ -176,6 +147,6 @@ int main()
     printf("------------Assignment 10------------\n");
     struct Locomotive train1,train2,train3;
     */
-
+/*
     return 0;
-}
+}*/
