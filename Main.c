@@ -4,6 +4,8 @@
 #include "1-6/Exercise1-6.h"
 #include "7-11/Exercises7-11.h"
 #include "12-16/Exercises12-16.h"
+#include "17-22/Exercises17-22.h"
+
 /*
 void exerciseSet7_11()
 {
@@ -32,17 +34,21 @@ void exerciseSet7_11()
 }*/
 void exerciseSet12_16()
 {
-    Exercise12();
-    Exercise13();
-    Exercise14();
-    Exercise15();
+    //Exercise12();
+    //Exercise13();
+    //Exercise14();
+    //Exercise15();
     //Exercise16();
+}
+void exerciseSet17_22()
+{
+    Exercise17();
 }
 int main()
 {
     //exerciseSet7_11();
-    exerciseSet12_16();
-
+    //exerciseSet12_16();
+    exerciseSet17_22();
 
     return 0;
 }

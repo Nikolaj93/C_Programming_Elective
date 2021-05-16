@@ -9,6 +9,8 @@ add_executable(
         Exercise1.c
         Exercise2.c
         Exercise3.c
+        decoration/Decoration.c
+        decoration/Decoration.h
         1-6/Exercise1.c
         1-6/Exercise2.c
         1-6/Exercise3.c
@@ -27,6 +29,7 @@ add_executable(
         12-16/Exercise15.c
         12-16/Exercise16.c
         12-16/Exercises12-16.h
-        decoration/Decoration.c
-        decoration/Decoration.h
-        17-22/Exercise17.c 17-22/Exercise17.h 17-22/Exercises17-22.h)
+        17-22/Exercise17.c
+        17-22/Exercise17.h
+        17-22/Exercises17-22.h
+        17-22/Exercise18.c 17-22/Exercise18.h 17-22/Exercise19.c 17-22/Exercise19.h 17-22/Exercise20.c 17-22/Exercise20.h 17-22/Exercise21.c 17-22/Exercise21.h 17-22/Exercise22.c 17-22/Exercise22.h)
