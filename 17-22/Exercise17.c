@@ -29,4 +29,3 @@ int Exercise17()
     separatorEnd("17");
     return 0;
 }
-

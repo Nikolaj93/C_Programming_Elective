@@ -43,6 +43,8 @@ void exerciseSet12_16()
 void exerciseSet17_22()
 {
     Exercise17();
+    Exercise18();
+    Exercise19();
 }
 int main()
 {
